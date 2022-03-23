@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,8 @@
     "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
     "babel-jest": "^27.5.1",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "jest": "^27.5.1"
   },
   "dependencies": {
