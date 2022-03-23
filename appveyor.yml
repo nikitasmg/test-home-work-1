@@ -2,9 +2,9 @@ image: Ubuntu1804
 stack: node 12
 branches: 
   only: 
-  - master
+   master
 cache: node_modules
-install: - npm install
+install:  npm install
 build: off
 test_script: 
-  - npm run test
+   npm run test
